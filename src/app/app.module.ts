@@ -11,12 +11,16 @@ import { MatTableModule } from '@angular/material/table';
 // Components Project
 import { HomeComponent } from './home/home.component';
 import { AlunosComponent } from './alunos/alunos.component';
+import { ChangeDetectionComponent } from './change-detection/change-detection.component';
+import { MyChildComponent } from './change-detection/my-child/my-child.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    AlunosComponent
+    AlunosComponent,
+    ChangeDetectionComponent,
+    MyChildComponent
   ],
   imports: [
     BrowserModule,
